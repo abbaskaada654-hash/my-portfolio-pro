@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>أداة الأمن السيبراني | عباس كعدة</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { font-family: 'Arial', sans-serif; background-color: #020617; color: #f8fafc; }
+        .security-border { border-right: 4px solid #ef4444; background: rgba(30, 41, 59, 0.4); }
+    </style>
+</head>
+<body class="p-10 leading-relaxed text-right">
+
+    <nav class="mb-12">
+        <a href="index.html" class="text-red-400 hover:text-red-300 font-bold">← العودة للرئيسية</a>
+    </nav>
+
+    <main class="max-w-4xl mx-auto">
+        <h1 class="text-4xl font-bold mb-6 text-red-500 underline decoration-red-900">أداة فحص الثغرات والشبكات</h1>
+        
+        <div class="security-border p-6 rounded-lg mb-10">
+            <h2 class="text-2xl font-bold mb-4 text-slate-100">حول المشروع التقني</h2>
+            <p class="text-slate-400 mb-6">
+                أداة متقدمة مصممة بلغة **Python** لغرض الفحص الأمني (Reconnaissance). تقوم الأداة بتحليل استجابة المنافذ والبروتوكولات لاكتشاف الثغرات المحتملة في الشبكات، وهي أداة أساسية لأي خبير في الأمن السيبراني.
+            </p>
+            <div class="flex flex-wrap gap-3">
+                <span class="bg-red-950/40 text-red-400 border border-red-900 px-4 py-1 rounded-full text-xs">Pentesting</span>
+                <span class="bg-slate-800 text-slate-300 px-4 py-1 rounded-full text-xs">Socket Library</span>
+                <span class="bg-slate-800 text-slate-300 px-4 py-1 rounded-full text-xs">Security Auditing</span>
+            </div>
+        </div>
+
+        <div class="bg-black/80 border border-slate-700 p-6 rounded-xl font-mono text-green-400 mb-10">
+            <p class="text-slate-500 mb-2">// Terminal Output:</p>
+            <p>> python scanner.py</p>
+            <p>> Scanning target: 192.168.1.1</p>
+            <p>> Port 443 (HTTPS): <span class="text-red-500">OPEN [CRITICAL]</span></p>
+            <p>> Port 22 (SSH): CLOSED</p>
+            <p>> Done.</p>
+        </div>
+
+        <div class="text-center">
+            <a href="scanner.py" download class="bg-red-600 hover:bg-red-700 text-white px-10 py-4 rounded-full font-bold transition-all shadow-lg shadow-red-600/20">
+                <i class="fas fa-file-code ml-2"></i> تحميل أداة الفحص الكاملة
+            </a>
+        </div>
+    </main>
+
+</body>
+</html>

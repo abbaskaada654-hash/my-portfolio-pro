@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تفاصيل المشروع | عباس كعدة</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Tajawal', sans-serif; background-color: #0f172a; color: #f8fafc; }
+        .glass-card { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+    </style>
+</head>
+<body class="p-6">
+    <nav class="mb-10 text-right">
+        <a href="index.html" class="text-sky-400 hover:underline"><i class="fas fa-arrow-right ml-2"></i> العودة للرئيسية</a>
+    </nav>
+
+    <main class="max-w-4xl mx-auto">
+        <h1 class="text-4xl font-bold mb-6 text-sky-500 text-center">نظام إدارة عيادة الأسنان الذكي</h1>
+        
+        <div class="grid md:grid-cols-2 gap-8 items-start mb-12">
+            <div class="glass-card p-2 rounded-2xl">
+                <img src="Clinic_project/clinic_preview.png" alt="واجهة البرنامج" class="rounded-xl w-full">
+            </div>
+            
+            <div class="space-y-4 text-right">
+                <h2 class="text-2xl font-bold">عن المشروع</h2>
+                <p class="text-slate-300 leading-relaxed">
+                    هذا المشروع عبارة عن نظام مكتبي احترافي تم بناؤه لتسهيل العمليات الإدارية في العيادات. يعتمد النظام على منطق برمجي قوي يربط واجهة المستخدم بقاعدة بيانات محلية لتخزين سجلات المرضى بدقة وأمان.
+                </p>
+                <ul class="space-y-2 text-slate-400">
+                    <li><i class="fas fa-check-circle text-sky-500 ml-2"></i> لغة البرمجة: Python.</li>
+                    <li><i class="fas fa-check-circle text-sky-500 ml-2"></i> قاعدة البيانات: SQLite.</li>
+                    <li><i class="fas fa-check-circle text-sky-500 ml-2"></i> الواجهة: Tkinter GUI.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <a href="Clinic_project/main.py" download class="bg-sky-600 hover:bg-sky-500 text-white px-8 py-3 rounded-full font-bold transition">
+                <i class="fas fa-download ml-2"></i> تحميل الكود المصدري (main.py)
+            </a>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المبرمج عباس | خبير أمن سيبراني</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Tajawal', sans-serif; background-color: #0f172a; color: #f8fafc; }
+        .glass-card {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #38bdf8, #818cf8);
+            
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="leading-relaxed">
+
+    <nav class="fixed w-full z-50 glass-card px-6 py-4 flex justify-between items-center">
+        <div class="text-xl font-bold gradient-text underline">Abbas Arsenal</div>
+        <div class="hidden md:flex gap-8">
+            <a href="#home" class="hover:text-sky-400 transition">الرئيسية</a>
+            <a href="#about" class="hover:text-sky-400 transition">من أنا</a>
+            <a href="#skills" class="hover:text-sky-400 transition">المهارات</a>
+            <a href="#projects" class="hover:text-sky-400 transition">المشاريع</a>
+            <a href="#contact" class="hover:text-sky-400 transition">اتصل بي</a>
+        </div>
+    </nav>
+
+    <section id="home" class="h-screen flex flex-col justify-center items-center text-center px-4">
+        <div class="w-40 h-40 rounded-full border-4 border-sky-500 overflow-hidden mb-6 shadow-xl shadow-sky-500/20">
+            <img src="my-photo.jpg.jpg" alt="صورة عباس" class="w-full h-full object-cover">
+        </div>
+        <h1 class="text-4xl md:text-6xl font-bold mb-4">مرحباً، أنا عباس كعدة</span></h1>
+        <p class="text-lg md:text-xl text-slate-400 max-w-2xl">
+            مهندس معلوماتية وأخصائي في الأمن السيبراني والبرمجة. شغوف ببناء الأنظمة الآمنة وتطوير الويب المتكامل.
+        </p>
+        <div class="mt-8 flex gap-4">
+            <a href="#projects" class="bg-sky-600 hover:bg-sky-500 px-8 py-3 rounded-full font-bold transition">مشاهدة أعمالي</a>
+            <a href="#contact" class="border border-sky-600 px-8 py-3 rounded-full font-bold hover:bg-sky-600/10 transition">تواصل معي</a>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 px-6 max-w-5xl mx-auto">
+        <h2 class="text-3xl font-bold mb-12 text-center underline decoration-sky-500">لمحة عن مسيرتي</h2>
+        <div class="grid md:grid-cols-2 gap-10">
+            <div class="glass-card p-8 rounded-2xl">
+                <h3 class="text-xl font-bold mb-4 text-sky-400"><i class="fas fa-user-graduate ml-2"></i> التعليم والخبرة</h3>
+                <p class="text-slate-300 leading-loose">
+                    طالب في جامعة قرطبة الخاصة، أمتلك خبرة تمتد لـ 5 سنوات في مجال البرمجة و4 سنوات في أسواق التداول (Forex). أركز حالياً على دمج خبراتي البرمجية مع تقنيات الدفاع السيبراني.
+                </p>
+            </div>
+            <div class="glass-card p-8 rounded-2xl">
+                <h3 class="text-xl font-bold mb-4 text-sky-400"><i class="fas fa-shield-alt ml-2"></i> رؤيتي</h3>
+                <p class="text-slate-300 leading-loose">
+                    أسعى لتمكين الطلاب والمبرمجين من خلال توفير أدوات تعليمية آمنة، مثل مشروع "Abbas Arsenal"، وتطوير منصات رقمية تسهل الوصول للمحتوى الأكاديمي.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-20 bg-slate-900/50 px-6"><div class="max-w-5xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-12">المهارات التقنية</h2>
+            <div class="flex flex-wrap justify-center gap-4">
+                <span class="bg-slate-800 px-6 py-2 rounded-lg border border-sky-500/30">Cybersecurity & Pentesting</span>
+                <span class="bg-slate-800 px-6 py-2 rounded-lg border border-sky-500/30">Python (Flask/Automation)</span>
+                <span class="bg-slate-800 px-6 py-2 rounded-lg border border-sky-500/30">Full-Stack Web (PHP, JS, SQL)</span>
+                <span class="bg-slate-800 px-6 py-2 rounded-lg border border-sky-500/30">Forex Technical Analysis</span>
+                <span class="bg-slate-800 px-6 py-2 rounded-lg border border-sky-500/30">Electronic Circuits (Arduino)</span>
+            </div>
+        </div>
+    </section>
+
+   <section id="projects" class="py-20 px-6 max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold mb-12 text-center gradient-text">معرض أعمالي التقنية</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+        
+        <div class="glass-card rounded-xl overflow-hidden hover:scale-105 transition border border-transparent hover:border-sky-500">
+            <div class="h-48 bg-sky-900 flex items-center justify-center">
+                <i class="fas fa-tooth text-5xl text-sky-400"></i>
+            </div>
+            <div class="p-6 text-right">
+                <h3 class="font-bold text-xl mb-2">نظام إدارة عيادة الأسنان</h3>
+                <p class="text-slate-400 text-sm mb-4">نظام متكامل بلغة Python وقواعد بيانات SQLite.</p>
+                <a href="dentistry_project.html" class="inline-block bg-sky-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-sky-500 transition">
+                    عرض تفاصيل المشروع
+                </a>
+            </div>
+        </div>
+
+     <div class="glass-card rounded-xl overflow-hidden hover:scale-105 transition border border-transparent hover:border-red-500">
+    <div class="h-48 bg-indigo-900 flex items-center justify-center">
+        <i class="fas fa-user-shield text-5xl text-indigo-400"></i>
+    </div>
+    <div class="p-6 text-right">
+        <h3 class="font-bold text-xl mb-2 text-white">أداة فحص الثغرات الأمنية</h3>
+        <p class="text-slate-400 text-sm mb-4">أداة متقدمة لفحص منافذ الشبكة واكتشاف الخدمات النشطة باستخدام Python.</p>
+        
+        <a href="security_project.html" class="inline-block bg-red-600 text-white px-6 py-2 rounded-lg text-sm hover:bg-red-500 transition shadow-lg shadow-red-600/20">
+            فتح أداة الفحص
+        </a>
+    </div>
+</div>
+<div class="glass-card rounded-xl overflow-hidden hover:scale-105 transition border border-transparent hover:border-emerald-500">
+    <div class="h-48 bg-emerald-900 flex items-center justify-center">
+        <i class="fas fa-user-lock text-5xl text-emerald-400"></i>
+    </div>
+    <div class="p-6 text-right">
+        <h3 class="font-bold text-xl mb-2 text-white">Active Security Monitor</h3>
+        <p class="text-slate-400 text-sm mb-4">نظام مراقبة متقدم لتتبع سجلات الدخول وكشف التهديدات باللغة الإنجليزية.</p>
+        <a href="monitor_project.html" class="inline-block bg-emerald-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-emerald-500 transition">
+            View Monitor Details
+        </a>
+    </div>
+</div>
+</section>
+
+<footer id="contact" class="py-20 border-t border-slate-800 bg-slate-900/30">
+        <div class="max-w-4xl mx-auto text-center px-6">
+            <h2 class=>تواصل معي مباشرة</h2>
+            
+            <div class="grid md:grid-cols-2 gap-6 mb-12">
+                <a href="mailto:abbaskaada654@gmail.com" class="glass-card p-6 rounded-2xl hover:border-sky-500 transition group">
+                    <i class="fas fa-envelope text-3xl text-sky-500 mb-4 group-hover:scale-110 transition"></i>
+                    <h3 class="text-lg font-bold">البريد الإلكتروني</h3>
+                    <p class="text-slate-400">abbaskaada654@gmail.com</p>
+                </a>
+
+                <a href="tel:+963936654642" dir="ltr" class="glass-card p-6 rounded-2xl hover:border-sky-500 transition group">
+                    <i class="fas fa-phone-alt text-3xl text-green-500 mb-4 group-hover:scale-110 transition"></i>
+                    <h3 class="text-lg font-bold">رقم الهاتف</h3>
+                    <p class="text-slate-400">+963 936654642</p>
+                </a>
+            </div>
+
+            <div class="flex justify-center gap-8 mb-8">
+                <a href="https://github.com/yourusername" target="_blank" class="text-3xl hover:text-sky-500 transition"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/yourusername" target="_blank" class="text-3xl hover:text-sky-500 transition"><i class="fab fa-linkedin"></i></a>
+                <a href="https://t.me/yourusername" target="_blank" class="text-3xl hover:text-sky-500 transition"><i class="fab fa-telegram"></i></a>
+            </div>
+
+            <p class="text-slate-500 text-sm">تم التطوير بواسطة عباس كعدة &copy; 2026</p>
+        </div>
+    </footer>
+
+</body>
+</html>
